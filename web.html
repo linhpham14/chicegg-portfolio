@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicegg's Portfolio - Web Design</title>
+        <link rel="icon" type="image/svg+xml" href="asset-logo.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ixb4gts.css">
+</head>
+<body class="works-page works-web-page" >
+    <header class="about-header" id="top">
+        <a class="about-logo" href="index.html" aria-label="Back to home">
+            <div class="about-logo__img" aria-hidden="true"></div>
+        </a>
+        <p class="about-header-title">EGG-CELLENT WEB DESIGN</p>
+        <div class="about-menu-wrap">
+            <button
+                class="about-menu-button"
+                type="button"
+                aria-label="Toggle quick menu"
+                aria-controls="about-quick-menu"
+                aria-expanded="false"
+            ></button>
+
+            <div class="about-quick-menu" id="about-quick-menu" hidden>
+                <a class="about-quick-menu-button" href="about.html">About</a>
+                <a class="about-quick-menu-button" href="contact.html">Socials</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- WORKS TYPE ROW (The Pots) -->
+    <section class="works-stage-inner">
+            <div class="works-topbar">
+                <section class="works-type-row" aria-label="Artwork category navigation">
+                    <a class="works-type works-type-closed" href="digital-art.html">
+                        <span class="works-type-lid" aria-hidden="true" id="digipaint-lid"></span>
+                        <span class="works-type-label works-type-label-sub" id="workd-type-sub-digipaint">Digital painting</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a>
+
+                    <!-- <a class="works-type works-type-closed" href="animation.html">
+                        <span class="works-type-lid" aria-hidden="true"></span>
+                        <span class="works-type-label works-type-label-sub">Animation</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a> -->
+
+                    <a class="works-type works-type-active" href="web.html" aria-current="page">
+                        <span class="works-type-lid works-type-lid-web" aria-hidden="true"></span>
+                        <span class="works-type-label works-type-label-float" id="web-design-label">Web<br>design</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a>
+                </section>
+            </div>
+
+        <!-- CONTENT STAGE -->
+        <section class="works-stage-inner">
+            <div class="web-content-grid">
+                
+                <!-- Left Column: Title -->
+                <div class="web-title-col">
+                    <h2 class="birds-main-title" data-animate="fade-up">Birds don't sing <span class="birds-subtitle">- WEB POEM</span></h2>
+                    
+                </div>
+
+                <!-- Center Column: Video -->
+                <div class="web-video-col" data-animate="fade-right">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Swd1DS2JZcY?si=Eadl-xqgjtQWT9yq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Right Column: Credits & Button -->
+                <div class="web-credits-col" data-animate="fade-up">
+                    <!-- Changed class to 'credits' to match your requested styling logic -->
+                    <p class="credits">
+                        Lyrics: Birds Don't Sing - TV Girl<br>
+                        <br>
+                        Background music: Vintage Reverie Echoes - harrisonmiller on Pixabay
+                    </p>
+                    <a href="https://linhpham14.github.io/birds-dont-sing-tv-girl-webpoem/" class="view-work-link">
+                        <button class="view-work-btn">Visit work</button>
+                    </a>
+                </div>
+                <!-- <p class="web-side-note"><i class="italic">See more works in other pots ^^</i></p> -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="about-footer webfoot">
+        <p>&copy; 2026 Chicegg. All rights reserved.</p>
+        <div class="footer-socials" aria-label="Chicegg social links">
+            <a
+                class="footer-social-link"
+                href="https://www.instagram.com/chicegg01/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit Instagram profile @chicegg01"
+            >
+                <span class="contact-social-icon contact-social-icon--instagram" aria-hidden="true"></span>
+            </a>
+            <a
+                class="footer-social-link"
+                href="https://www.tiktok.com/@chicegg01"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit TikTok profile @chicegg01"
+            >
+                <span class="contact-social-icon contact-social-icon--tiktok" aria-hidden="true"></span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

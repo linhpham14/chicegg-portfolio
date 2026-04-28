@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicegg's Portfolio - Digital Art</title>
+     
+    <link rel="icon" type="image/svg+xml" href="asset-logo.svg">
+     
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ixb4gts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="works-page works-2d-page">
+    <header class="about-header" id="top">
+        <a class="about-logo" href="index.html" aria-label="Back to home">
+            <div class="about-logo__img" aria-hidden="true"></div>
+        </a>
+        <p class="about-header-title">EGG-CELLENT ARTS</p>
+        <div class="about-menu-wrap">
+            <button
+                class="about-menu-button"
+                type="button"
+                aria-label="Toggle quick menu"
+                aria-controls="about-quick-menu"
+                aria-expanded="false"
+            ></button>
+
+            <div class="about-quick-menu" id="about-quick-menu" hidden>
+                <a class="about-quick-menu-button" href="about.html">About</a>
+                <a class="about-quick-menu-button" href="contact.html">Socials</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="works-stage">
+        <div class="works-stage-inner">
+            <div class="works-topbar">
+                <section class="works-type-row" aria-label="Artwork category navigation">
+                    <a class="works-type works-type-active"  href="digital-art.html" aria-current="page">
+                        <span class="works-type-lid" aria-hidden="true"></span>
+                        <span class="works-type-label works-type-label-float">Digital<br>painting</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a>
+
+                    <!-- <a class="works-type works-type-closed" data-animate="fade-up" href="animation.html">
+                        <span class="works-type-lid" aria-hidden="true"></span>
+                        <span class="works-type-label works-type-label-sub">Animation</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a> -->
+
+                    <a class="works-type works-type-closed"   href="web.html">
+                        <span class="works-type-lid" aria-hidden="true"></span>
+                        <span class="works-type-label works-type-label-sub">Web design</span>
+                        <span class="works-type-body" aria-hidden="true"></span>
+                    </a>
+                </section>
+
+                <p class="works-side-note">Some art pieces I made that I am proud of. Most of these are my original characters, and some others are personal projects or fanarts. Enjoy!<br>
+                <br>
+                <i class="italic">See more works in other pots ^^</i></p>
+            </div>
+
+            <section class="works-gallery">
+
+                <div class="work-item img-oc1" data-animate="fade-up"></div>
+                <div class="work-item img-oc6" data-animate="fade-up"></div>
+                <div class="work-item img-oc7" data-animate="fade-up"></div>
+
+                <div class="work-item img-oc5" data-animate="fade-up"></div>
+                <div class="work-item img-oc2" data-animate="fade-up"></div>
+                <div class="work-item img-oc4" data-animate="fade-up"></div>
+
+                <div class="work-item img-oc3" data-animate="fade-up"></div>
+                <div class="work-item img-mato1" data-animate="fade-up"></div>
+                <div class="work-item img-mato2" data-animate="fade-up"></div>
+
+                <div class="work-item img-buttho1" data-animate="fade-up"></div>
+                <div class="work-item img-buttho2" data-animate="fade-up"></div>
+                <div class="work-item img-kiwie2" data-animate="fade-up"></div>
+
+                <div class="work-item img-kiwie1" data-animate="fade-up"></div>
+                <div class="work-item img-kiwie" data-animate="fade-up"></div>
+                <div class="work-item img-fanart1" data-animate="fade-up"></div>
+
+                <div class="work-item img-fanart2" data-animate="fade-up"></div>
+
+            </section>
+        </div>
+    </main>
+
+    <div class="works-lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Digital art image viewer">
+        <button class="works-lightbox__nav works-lightbox__nav--prev" type="button" aria-label="Previous image">&lt;</button>
+        <figure class="works-lightbox__shell">
+            <div class="works-lightbox__image" role="img"></div>
+        </figure>
+        <button class="works-lightbox__nav works-lightbox__nav--next" type="button" aria-label="Next image">&gt;</button>
+    </div>
+
+    <footer class="about-footer">
+        <p>&copy; 2026 Chicegg. All rights reserved.</p>
+        <div class="footer-socials" aria-label="Chicegg social links">
+            <a
+                class="footer-social-link"
+                href="https://www.instagram.com/chicegg01/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit Instagram profile @chicegg01"
+            >
+                <span class="contact-social-icon contact-social-icon--instagram" aria-hidden="true"></span>
+            </a>
+            <a
+                class="footer-social-link"
+                href="https://www.tiktok.com/@chicegg01"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit TikTok profile @chicegg01"
+            >
+                <span class="contact-social-icon contact-social-icon--tiktok" aria-hidden="true"></span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
